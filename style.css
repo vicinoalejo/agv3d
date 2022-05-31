@@ -34,6 +34,7 @@ ul {
     padding: 20px 20px;
     display: flex;
     justify-content: center;
+    font-family: 'Barlow Condensed', sans-serif;
     
 }
 
@@ -41,6 +42,7 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 .navbar-logo {
@@ -57,6 +59,7 @@ ul {
     display: flex;
     justify-content: center;
     margin: 20px;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 /* Fin Titulo-1 */
@@ -99,6 +102,7 @@ em {
 p {
     margin: 60px;
     font-size: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
 }
 
 /* Fin parrafo section nosotros */
@@ -116,6 +120,7 @@ p {
     color: #000;
     display: flex;
     justify-content: space-around;
+    font-family: 'Barlow Condensed', sans-serif;
     
 }
 
