@@ -277,3 +277,11 @@ img {
 }
 
 /* Fin Grid Productos */
+
+/* Transformaciones servicios */
+
+.photo-servicios:hover {
+    transform: scale(1.5);
+}
+
+/* Fin Transformaciones servicios */
