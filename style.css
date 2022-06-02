@@ -172,7 +172,7 @@ img {
     width: 150px;
     border-radius: 15px;
 
-}
+} */
 
  .photo-grid-container {
      display: flex;
@@ -188,34 +188,6 @@ img {
 }
 
 /* Fin Tamaños productos */
-
-/* Transformaciones productos */
-
-.producto-1:hover {
-    transform: scale(2);
-}
-
-.producto-2:hover {
-    transform: scale(2);
-}
-
-.producto-3:hover {
-    transform: scale(2);
-}
-
-.producto-4:hover {
-    transform: scale(2);
-}
-
-.producto-5:hover {
-    transform: scale(2);
-}
-
-.producto-6:hover {
-    transform: scale(2);
-}
-
-/* Fin Transformaciones productos */
 
 /* imagenes redes sociales */
 .img-fb {
