@@ -285,3 +285,11 @@ img {
 }
 
 /* Fin Transformaciones servicios */
+
+/* Transformaciones H1 */
+
+.titulo-1:hover {
+    transform: scale(2);
+}
+
+/* Fin Transformaciones H1 */
