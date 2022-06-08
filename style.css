@@ -15,7 +15,7 @@ body {
 /* Header */
 a {
     text-decoration: none;
-    color: #000;
+    color: #000000;
 }
 
 ul {
@@ -24,33 +24,11 @@ ul {
 }
 
 * {
-    margin: 10px;
-    padding: 10px;
+    margin: 0px;
+    padding: 0px;
 
 }
 
-
-.menu-container {
-    background-color: #03989e;
-    color: aliceblue;
-    padding: 20px 20px;
-    display: flex;
-    justify-content: center;
-    font-family: 'Barlow Condensed', sans-serif;
-
-}
-
-.navbar-nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Barlow Condensed', sans-serif;
-}
-
-.navbar-logo {
-    width: 100px;
-    height: 100px;
-}
 
 /* Header */
 
@@ -65,27 +43,6 @@ ul {
 }
 
 /* Fin Titulo-1 */
-
-/* Main */
-/*
-.imagen-main {
-    width: 100%;
-} */
-
-/* Fin Main */
-
-/* section */
-
-.servicios, .productos, .nosotros, .ubicacion {
-    color: #074d50;
-}
-
-em {
-    background-color: #03989e;
-    padding: 10px;
-}
-
-/* fin section */
 
 /* Section Contacto */
 
@@ -174,7 +131,7 @@ img {
     width: 150px;
     border-radius: 15px;
 
-} */
+}
 
  .photo-grid-container {
      display: flex;
@@ -192,6 +149,7 @@ img {
 /* Fin Tamaños productos */
 
 /* imagenes redes sociales */
+
 .img-fb {
     height: 50px;
     width: 50px;
@@ -242,7 +200,7 @@ img {
 .photo-servicios {
     padding: 50px;
     justify-content: center;
-}
+} 
 
 .photo-grid {
     display: grid;
@@ -254,7 +212,7 @@ img {
 
 /* Transformaciones servicios */
 
-.photo-servicios:hover {
+.servicios:hover {
     transform: scale(1.5);
 }
 
@@ -263,7 +221,8 @@ img {
 /* Transformaciones H1 */
 
 .titulo-1:hover {
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 /* Fin Transformaciones H1 */
+

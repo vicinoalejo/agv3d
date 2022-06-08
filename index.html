@@ -25,11 +25,18 @@
     <!-- Header -->
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-white">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <div class="container-fluid">
-                <a class="navbar-logo" href=""><img src="./multimedia/imagenes/logo-agv-2.png" alt="logo-agv"></a>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
+                <a class="navbar-brand" href="#">
+                    <img src="./multimedia/imagenes/logo-agv-2.png" alt="logo-agv3d" width="150px">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#servicios">Servicios</a>
                         </li>
@@ -92,15 +99,14 @@
 
     <!-- Seccion Servicios -->
 
-    <section id="servicios" class="photo-grid-container">
+    <section id="servicios">0
 
-        <div class="item-servicios"> <em> <img src="./multimedia/imagenes/SERVICIOS.png" alt=""> </em></div>
+        <div> <em> <img src="./multimedia/imagenes/SERVICIOS.png" alt="" width="100%"> </em></div>
 
-        <div class="photo-grid row">
+        <div>
 
-            <div><img class="photo-servicios col-6" src="multimedia/imagenes/servicio-1.png" alt=""> </div>
-            <div><img class="photo-servicios col-6" src="multimedia/imagenes/servicio-2.png" alt=""> </div>
-
+            <div><img src="multimedia/imagenes/servicio-1.png" alt=""> </div>
+            <div><img src="multimedia/imagenes/servicio-2.png" alt=""> </div>
 
         </div>
 
@@ -112,7 +118,7 @@
 
     <section id="productos" class="productos-container">
 
-        <h2 class="item-productos"> <em> Productos </em></h2>
+        <h2> <em> <img src="./multimedia/imagenes/PRODUCTOS.png" alt="productos" width="100%"> </em></h2>
         <div class="row">
             <div class="card col-3" style="width: 15rem;">
                 <img src="./multimedia/imagenes/producto-1.png" class="card-img-top" alt="producto-1">
@@ -188,7 +194,7 @@
 
     <section id="nosotros">
 
-        <h2 class="item-nosotros"> <em>Nosotros</em> </h2>
+        <h2> <em> <img src="./multimedia/imagenes/NOSOTROS.png" alt="nosotros" width="100%"></em> </h2>
         <div class="row">
             <p class="col-9">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolor quia voluptatum dolore pariatur atque
@@ -236,15 +242,18 @@
 
     <section id="ubicacion">
 
-        <h2 class="item-ubicacion"> <em>Ubicacion</em></h2>
-        <div class="row justify-content-center">
-            <div class="col-9">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2320.467350143018!2d-58.53914422242883!3d-34.66388449454687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc889c9e8f43b%3A0x41967f54c20edd72!2sAvenida%20General%20Enrique%20Mosconi%201150!5e0!3m2!1ses!2sar!4v1651449891536!5m2!1ses!2sar"
-                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                    class="maps"></iframe>
-            </div>
+        <h2> <em> <img src="./multimedia/imagenes/UBICACION.png" alt="ubicacion" width="100%"></em></h2>
+
+    <div class="row">
+        <div class="col-6">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.6467513591533!2d-58.53887522555223!3d-34.6630001359637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc889ee5a4bf5%3A0x5335be67115ae55b!2sAv.%20General%20Enrique%20Mosconi%20%26%20Pueyrred%C3%B3n%2C%20Lomas%20del%20Mirador%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1654573449052!5m2!1ses!2sar"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
+        <p class="col-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illum quos consequuntur accusamus id? Magnam molestiae, quo doloremque vel odio hic optio blanditiis ullam recusandae ratione! Nulla soluta modi in.</p>
+    </div>
+
     </section>
 
     <!-- Fin Seccion Ubicacion -->
