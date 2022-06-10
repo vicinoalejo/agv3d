@@ -1,0 +1,37 @@
+@import '../base/colores';
+
+footer {
+    background-color: $celesteoscuro;
+    .img-fb {
+        height: 50px;
+        width: 50px;
+    }
+    .img-insta {
+        height: 50px;
+        width: 50px;
+
+    }
+    .logo-wpp {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+    .contacto-mail {
+        color: $blanco;
+    }
+    .contacto {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Barlow Condensed', sans-serif;
+    }
+
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+ul {
+    list-style: none;
+}

@@ -1,61 +1,6 @@
-html {
-    font-size: 20px;
-}
-
-/* Fondo pagina */
-
-body {
-
-    background-image: url("multimedia/imagenes/fondo-agv3d.png");
-    background-attachment: fixed;
-}
-
-/* Fin Fondo pagina */
-
-/* Header */
-a {
-    text-decoration: none;
-    color: #000000;
-}
-
-ul {
-    list-style: none;
-
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-
-}
 
 
-/* Header */
 
-/* Titulo-1 */
-
-.titulo-1 {
-    color: rgb(0, 3, 5);
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    font-family: 'Barlow Condensed', sans-serif;
-}
-
-/* Fin Titulo-1 */
-
-/* Section Contacto */
-
-.contacto {
-    background-color: #074d50;
-
-}
-
-.contacto-mail {
-    color: aliceblue;
-}
-
-/* Fin section contacto */
 
 /* Parrafo section nosotros */
 p {
@@ -148,52 +93,7 @@ img {
 
 /* Fin Tamaños productos */
 
-/* imagenes redes sociales */
 
-.img-fb {
-    height: 50px;
-    width: 50px;
-}
-
-.img-insta {
-    height: 50px;
-    width: 50px;
-}
-
-/* fin imagenes redes sociales */
-
-/* Logo WhatsApp */
-
-.logo-wpp {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-}
-/* Fin Logo WhatsApp */
-
-/* Secciones */
-
-.item-servicios {
-    padding: 40px;
-
-}
-
-.item-productos {
-    padding: 40px;
-
-}
-
-.item-nosotros {
-    padding: 40px;
-
-}
-
-.item-ubicacion {
-    padding: 40px;
-
-}
-
-/* Fin de secciones */
 
 /* Grid productos */
 
@@ -225,4 +125,3 @@ img {
 }
 
 /* Fin Transformaciones H1 */
-

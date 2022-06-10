@@ -1,0 +1,13 @@
+@import '../base/colores';
+
+.titulo-1 {
+    color: $negro;
+    display: flex;
+	justify-content: center;
+	margin: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+	&:hover {
+		transform: scale(1.5);
+	}
+
+}

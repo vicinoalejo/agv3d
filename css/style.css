@@ -1,0 +1,61 @@
+.titulo-1 {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-family: "Barlow Condensed", sans-serif;
+}
+.titulo-1:hover {
+  transform: scale(1.5);
+}
+
+footer {
+  background-color: #03989e;
+}
+footer .img-fb {
+  height: 50px;
+  width: 50px;
+}
+footer .img-insta {
+  height: 50px;
+  width: 50px;
+}
+footer .logo-wpp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+footer .contacto-mail {
+  color: #ffffff;
+}
+footer .contacto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-image: url("../multimedia/imagenes/fondo-agv3d.png");
+  background-attachment: fixed;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

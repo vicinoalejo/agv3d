@@ -1,0 +1,23 @@
+@import 'componentes/header';
+@import 'componentes/footer';
+@import 'componentes/productos';
+@import 'componentes/servicios';
+@import 'componentes/nosotros';
+@import 'componentes/ubicacion';
+@import '../scss/base/colores';
+@import '../scss/base/variables';
+
+html {
+    font-size: 20px;
+}
+
+body {
+    background-image: url("../multimedia/imagenes/fondo-agv3d.png");
+    background-attachment: fixed;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "agv3d-proyecto-sass-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicinoalejo/agv3d.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicinoalejo/agv3d/issues"
+  },
+  "homepage": "https://github.com/vicinoalejo/agv3d#readme"
+}
