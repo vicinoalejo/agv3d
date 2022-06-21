@@ -5,8 +5,16 @@
     <meta charset="UT0F-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Impresiones y diseño 3D con impresoras del tipo extrusor fdm usando materiales resiclados del tipo PLA">
-    <meta name="keywords" content="impresora, 3d, impresiones, pla, fdm, filamentos, diseño, temperatura, arte, imprimir, modelado, grabado, modelo, plastico, reciclaje, autocad, thingiverse, cults">
+    <meta name="description"
+        content="Impresiones y diseño 3D con impresoras del tipo extrusor fdm usando materiales resiclados del tipo PLA">
+    <meta name="keywords"
+        content="impresora, 3d, impresiones, pla, fdm, filamentos, diseño, temperatura, arte, imprimir, modelado, grabado, modelo, plastico, reciclaje, autocad, thingiverse, cults">
+
+    <!-- Protocolo open graph -->
+    <meta property="og:tittle" content="No estamos produciendo, estamos creando">
+    <meta property="og:description"
+        content="impresora, 3d, impresiones, pla, fdm, filamentos, diseño, temperatura, arte, imprimir, modelado, grabado, modelo, plastico, reciclaje, autocad, thingiverse, cults">
+
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,7 +35,7 @@
     <!-- Header -->
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <nav class="navbar  navbar-expand-lg bg-white fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
                     <img src="./multimedia/imagenes/logo-agv-chico.svg" alt="logo-agv3d" width="150px">
@@ -103,13 +111,29 @@
 
     <section id="servicios">
 
-        <img src="./multimedia/imagenes/SERVICIOS.avif" alt="banner-servicios" width="100%">
+        <img class="img-portada" src="./multimedia/imagenes/SERVICIOS.avif" alt="banner-servicios" width="100%">
 
-        <div>
+        <h2 class="texto-h2-servicios">Nos especializamos en</h2>
 
-            <div><img src="multimedia/imagenes/servicio-1.svg" alt="servicio-1"> </div>
-            <div><img src="multimedia/imagenes/servicio-2.svg" alt="servicio-2"> </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 text-center">
+                    <img src="./multimedia/imagenes/servicio-1.svg" alt="">
+                </div>
+                <div class="col-4 text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, amet. Temporibus rem id culpa, maxime optio dolor est totam sapiente! Voluptas, quod! Iure fugit illo voluptatum, aliquam atque tempora optio.</p>
+                </div>
 
+            </div>
+            <div class="row">
+                <div class="col-4 text-center">
+                    <img src="./multimedia/imagenes/servicio-2.svg" alt="">
+                </div>
+                <div class="col-4 text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sequi doloremque fuga, provident vel adipisci reprehenderit odio aperiam officiis eius tempora quos necessitatibus expedita dolor dicta natus porro consequatur vitae.</p>
+                </div>
+
+            </div>
         </div>
 
     </section>
@@ -118,74 +142,91 @@
 
     <!-- Seccion Productos -->
 
-    <section id="productos" class="productos-container">
+    <section id="productos">
 
-        <img src="./multimedia/imagenes/PRODUCTOS.avif" alt="productos" width="100%">
-        <div class="row">
-            <div class="card col-3" style="width: 15rem;">
-                <img src="./multimedia/imagenes/producto-1.avif" class="card-img-top" alt="producto-1">
-                <div class="card-body">
-                    <h3 class="card-title">Soporte Reloj</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
+        <img class="img-portada" src="./multimedia/imagenes/PRODUCTOS.avif" alt="productos" width="100%">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 15rem;">
+                        <img src="./multimedia/imagenes/producto-1.avif" class="card-img-top" alt="soporte para reloj">
+                        <div class="card-body">
+                            <h3 class="card-title">Soporte Reloj</h3>
+                            <p class="card-text">Realizado en material PLA. <br>Medida: 7 cm de alto. Varios colores
+                                disponibles.</br> <br>$250 ARS</br></p>
+                            <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div class="card" style="width: 15rem;">
+                        <img src="./multimedia/imagenes/producto-2.avif" class="card-img-top"
+                            alt="maceta de forma hexagonal">
+                        <div class="card-body">
+                            <h3 class="card-title">Maceta hexagonal</h3>
+                            <p class="card-text">Realizado en material PLA. <br>Varios colores
+                                disponibles.</br> <br>$200 ARS</br></p>
+                            <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div class="card" style="width: 15rem;">
+                        <img src="./multimedia/imagenes/producto-3.avif" class="card-img-top"
+                            alt="caja para guardar cosas de forma espiral">
+                        <div class="card-body">
+                            <h3 class="card-title">Box espiral</h3>
+                            <p class="card-text">Realizado en material PLA. <br>Medida: 12 cm de alto. Varios colores
+                                disponibles.</br> <br>$500 ARS</br></p>
+                            <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="card col-3" style="width: 15rem;">
-                <img src="./multimedia/imagenes/producto-2.avif" class="card-img-top" alt="producto-2">
-                <div class="card-body">
-                    <h3 class="card-title">Maceta hexagonal</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="card" style="width: 15rem;">
+                        <img src="./multimedia/imagenes/producto-4.avif" class="card-img-top"
+                            alt="soporte de pared para joysticks de video juegos">
+                        <div class="card-body">
+                            <h3 class="card-title">Soporte joystick</h3>
+                            <p class="card-text">Realizado en material PLA. <br>Encastrables. Varios colores
+                                disponibles<br>$500 ARS</p>
+                            <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div class="card" style="width: 15rem;">
+                        <img src="./multimedia/imagenes/producto-5.avif" class="card-img-top" alt="Muñeco de among us">
+                        <div class="card-body">
+                            <h3 class="card-title">Among Us</h3>
+                            <p class="card-text">Realizado en material PLA. <br>Medida: 7cm de alto. Varios colores
+                                disponibles<br>$300 ARS.</p>
+                            <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-4">
+                    <div class="card" style="width: 15rem;">
+                        <img src="./multimedia/imagenes/producto-6.avif" class="card-img-top"
+                            alt="sujeta libros de star wars">
+                        <div class="card-body">
+                            <h3 class="card-title">Sujeta libros STAR WARS</h3>
+                            <p class="card-text">Realizado en material PLA. <br>Letras en color amarillo o blancas segun
+                                disponibilidad.<br>$500 ARS.</p>
+                            <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="card col-3" style="width: 15rem;">
-                <img src="./multimedia/imagenes/producto-3.avif" class="card-img-top" alt="producto-3">
-                <div class="card-body">
-                    <h3 class="card-title">Box espiral</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
-                </div>
-            </div>
+
         </div>
-
-        <div class="row">
-            <div class="card" style="width: 15rem;">
-                <img src="./multimedia/imagenes/producto-4.avif" class="card-img-top" alt="producto-4">
-                <div class="card-body">
-                    <h3 class="card-title">Soporte joystick</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="./multimedia/imagenes/producto-5.avif" class="card-img-top" alt="producto-5">
-                <div class="card-body">
-                    <h3 class="card-title">Among Us</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 15rem;">
-                <img src="./multimedia/imagenes/producto-6.avif" class="card-img-top" alt="producto-6">
-                <div class="card-body">
-                    <h3 class="card-title">Soporte Libros</h3>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="https://wa.me/message/NLKMLLTO6VOTE1" class="btn btn-primary">Comprar </a>
-                </div>
-            </div>
-        </div>
-
-
 
 
     </section>
@@ -196,44 +237,21 @@
 
     <section id="nosotros">
 
-        <img src="./multimedia/imagenes/NOSOTROS.avif" alt="nosotros" width="100%">
-        <div class="row">
-            <p class="col-9">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dolor quia voluptatum dolore pariatur atque
-                vel
-                repudiandae alias rem ad? Rem aspernatur velit iste illum rerum perspiciatis sunt amet enim.
-                Ducimus odio sunt ipsum consequatur omnis dicta tenetur aspernatur nam dolorem quo incidunt, enim
-                delectus
-                nobis quibusdam dolore sed. Quo aliquam sapiente fuga, fugiat vel repudiandae deleniti corporis error
-                dolore.
-                Ad at totam pariatur consequatur est quibusdam temporibus eius qui perspiciatis placeat, nisi saepe ipsa
-                aliquam. Obcaecati, voluptatum architecto mollitia voluptas sapiente natus autem quod corporis qui
-                cupiditate quae earum?
-                At veniam ab voluptate, enim ipsa placeat recusandae possimus maiores velit natus et amet ratione quam
-                obcaecati illo? Officiis minima sint modi et numquam minus earum voluptate dicta nisi id?
-                Suscipit, ex officiis nesciunt doloribus aliquid quisquam! Porro, nam aliquid nulla voluptatem a, magnam
-                sit
-                esse officiis rerum consequuntur, quod vitae perspiciatis cupiditate aut. Soluta voluptate minus
-                reprehenderit natus amet.
-                Veritatis nulla obcaecati quibusdam nemo sint aperiam totam. Odit quidem dicta quas exercitationem quos
-                sequi voluptate nam modi eius. Deserunt possimus at, natus illo et doloribus ullam voluptas non error?
-                Architecto dignissimos placeat nam atque. Quod adipisci voluptatem perferendis incidunt fugit nesciunt
-                vitae
-                nobis, qui eligendi minus? Excepturi itaque optio blanditiis, impedit reiciendis debitis praesentium
-                deserunt nihil expedita maxime atque!
-                Beatae reprehenderit magni voluptas tempora facere? Beatae ratione ipsa quasi maiores quis mollitia
-                eveniet
-                exercitationem sit obcaecati! Delectus voluptatem maiores cupiditate aperiam officiis necessitatibus
-                tempore, minus consequatur recusandae consectetur architecto!
-                Nisi cupiditate officiis incidunt vero illum fuga suscipit ratione veniam, voluptatum labore doloremque?
-                Molestias consequatur perspiciatis, minus dolor corrupti possimus fuga illo quae, quibusdam blanditiis
-                voluptates! Assumenda natus adipisci delectus?
-                Nihil perspiciatis rerum porro reiciendis quo maxime obcaecati dolorem repellendus distinctio
-                perferendis
-                laborum voluptate, asperiores illum atque? Corrupti molestiae voluptatem ab numquam nisi asperiores
-                neque
-                minima officia! Hic, voluptatum corporis?
-            </p>
+        <img class="img-portada" src="./multimedia/imagenes/NOSOTROS.avif" alt="nosotros" width="100%">
+        <div class="container">
+            <div class="row">
+                <h2 class="col-md-7 col-center">Sobre AGV3D</h2>
+                <p class="col-center">
+                    AGV 3D fue creada en 2016 con el nombre VICPRINT por su fundador y técnico electrónico. En sus
+                    inicios AGV tenía la visión de ser pioneros en la industria y en lo que en aquel momento comenzaba a
+                    ser una tecnología innovadora. <br> Hoy, AGV 3D se encuentra en el mercado desarrollando impresiones
+                    de
+                    artículos DECO y soportes logrando dar al cliente un producto con mayor calidad, tecnología e
+                    innovación a un bajo costo comparado con otros materiales utlizados para elaborar el mismo producto.
+                    <br>Dejamos que esta tecnología aún fluya con la creatividad tanto del cliente como nuestra para
+                    incorporar invención, originalidad y cambio en la forma de vida de nuestra sociedad del siglo XXI.
+                </p>
+            </div>
         </div>
 
     </section>
@@ -244,18 +262,27 @@
 
     <section id="ubicacion">
 
-        <img src="./multimedia/imagenes/UBICACION.avif" alt="ubicacion" width="100%">
+        <img class="img-portada" src="./multimedia/imagenes/UBICACION.avif" alt="ubicacion" width="100%">
 
         <div class="row">
             <div class="col-6">
-                <iframe
+                <iframe class="mapa-ubicacion"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d975.6467513591533!2d-58.53887522555223!3d-34.6630001359637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc889ee5a4bf5%3A0x5335be67115ae55b!2sAv.%20General%20Enrique%20Mosconi%20%26%20Pueyrred%C3%B3n%2C%20Lomas%20del%20Mirador%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1654573449052!5m2!1ses!2sar"
-                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    title="ubicacion de tienda AGV3D" width="100%" height="100%" style="border:0;" allowfullscreen=""
+                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <p class="col-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos illum quos
-                consequuntur accusamus id? Magnam molestiae, quo doloremque vel odio hic optio blanditiis ullam
-                recusandae ratione! Nulla soluta modi in.</p>
+
+
+            <div class="col-4 text-center">
+                <div>
+                    <h2>
+                        Donde nos encontramos
+                    </h2>
+                    <br>
+                    <p>Direccion: Av. Mosconi esquina Av. San Martin. Lomas del Mirador, Buenos Aires. <br> <br>
+                        Colectivo que te acercan <br>Lineas: 113, 185, 284, 406.</p>
+                </div>
+            </div>
         </div>
 
     </section>
