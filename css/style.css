@@ -51,6 +51,16 @@ ul {
   margin-left: 30px;
 }
 
+.servicios-1:hover {
+  transform: translateX(100px);
+  transition: all 2s;
+}
+
+.servicios-2:hover {
+  transform: translateX(100px);
+  transition: all 2s;
+}
+
 .mapa-ubicacion {
   margin-left: 30px;
   margin-right: 30px;
