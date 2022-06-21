@@ -1,11 +1,11 @@
-@import '../scss/componentes/header';
-@import '../scss/componentes/footer';
-@import '../scss/componentes/productos';
-@import '../scss/componentes/servicios';
-@import '../scss/componentes/nosotros';
-@import '../scss/componentes/ubicacion';
-@import '../scss/base/colores';
-@import '../scss/base/variables';
+@import './componentes/header';
+@import '/componentes/footer';
+@import '/componentes/productos';
+@import '/componentes/servicios';
+@import '/componentes/nosotros';
+@import '/componentes/ubicacion';
+@import '/base/colores';
+@import '/base/variables';
 
 html {
     font-size: 20px;
