@@ -71,7 +71,7 @@ html {
 }
 
 body {
-  background-image: url("../multimedia/imagenes/fondo-agv3d.avif");
+  background-color: url("../multimedia/imagenes/fondo-agv3d.svg");
   background-attachment: fixed;
 }
 
