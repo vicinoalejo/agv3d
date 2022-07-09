@@ -1,7 +1,6 @@
 {
-  "name": "agv3d-proyecto-sass-backup",
+  "name": "AGV3D",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/vicinoalejo/agv3d/issues"
   },
-  "homepage": "https://github.com/vicinoalejo/agv3d#readme"
+  "homepage": "https://github.com/vicinoalejo/agv3d#readme",
+  "description": "Agv3d se basa en diseños e impresiones en tres dimensiones para todo tipos de objetos que te imagines"
 }
