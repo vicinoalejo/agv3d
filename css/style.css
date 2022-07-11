@@ -10,6 +10,10 @@
   transform: scale(1.5);
 }
 
+.carousel-slide {
+  margin-top: 150px;
+}
+
 footer {
   background-color: #03989e;
   margin-top: 50px;
