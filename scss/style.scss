@@ -1,11 +1,11 @@
 @import './componentes/header';
-@import '/componentes/footer';
-@import '/componentes/productos';
-@import '/componentes/servicios';
-@import '/componentes/nosotros';
-@import '/componentes/ubicacion';
-@import '/base/colores';
-@import '/base/variables';
+@import './componentes/footer';
+@import './componentes/productos';
+@import './componentes/servicios';
+@import './componentes/nosotros';
+@import './componentes/ubicacion';
+@import './base/colores';
+@import './base/variables';
 
 html {
     font-size: 20px;
