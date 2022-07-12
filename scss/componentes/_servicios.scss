@@ -6,6 +6,11 @@
     letter-spacing: 15px;
 }
 
+.parrafo {
+    border: 3px dotted $negro;
+    border-radius: 20px;
+}
+
 /* transformaciones */ 
 .servicios-1:hover {
     transform: translateX(100px);
@@ -40,9 +45,4 @@
     
 }
 /* fin medias */ 
-
-.parrafo {
-    border: 3px dotted $negro;
-    border-radius: 20px;
-}
 

@@ -94,6 +94,11 @@ ul {
   letter-spacing: 15px;
 }
 
+.parrafo {
+  border: 3px dotted #000000;
+  border-radius: 20px;
+}
+
 /* transformaciones */
 .servicios-1:hover {
   transform: translateX(100px);
@@ -124,11 +129,6 @@ ul {
   }
 }
 /* fin medias */
-.parrafo {
-  border: 3px dotted #000000;
-  border-radius: 20px;
-}
-
 .text-h2-nosotros {
   text-align: center;
   margin-bottom: 50px;
