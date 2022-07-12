@@ -23,6 +23,9 @@ footer {
         right: 30px;
     }
     .contacto-mail {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         color: $blanco;
     }
     .contacto {
@@ -31,7 +34,7 @@ footer {
         align-items: center;
         font-family: 'Barlow Condensed', sans-serif;
     }
-
+     
 }
 
 a {
@@ -40,4 +43,10 @@ a {
 }
 ul {
     list-style: none;
+}
+
+.container-footer {
+    height: 100px;
+    display: grid;
+    grid-gap: 20px;
 }
