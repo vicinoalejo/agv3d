@@ -123,6 +123,12 @@ ul {
     display: block;
   }
 }
+/* fin medias */
+.parrafo {
+  border: 3px dotted #000000;
+  border-radius: 20px;
+}
+
 .text-h2-nosotros {
   text-align: center;
   margin-bottom: 50px;
